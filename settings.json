@@ -1,0 +1,75 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{00000000-0000-0000-0000-000000000000}",
+    "firstWindowPreference": "defaultProfile",
+    "initialCols": 160,
+    "initialRows": 37,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "",
+            "backgroundImageOpacity": 0.6,
+            "colorScheme": "Tango Dark",
+            "cursorShape": "bar",
+            "font": 
+            {
+                "face": "Ubuntu Mono",
+                "size": 12
+            },
+            "historySize": 9001,
+            "opacity": 75,
+            "padding": "35",
+            "startingDirectory": "~"
+        },
+        "list": 
+        [
+            {
+                "closeOnExit": "automatic",
+                "commandline": "wsl.exe",
+                "guid": "{00000000-0000-0000-0000-000000000000}",
+                "name": "WSL",
+                "snapOnInput": true
+            },
+            {
+                "guid": "{00000000-0000-0000-0000-000000000001}",
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useAnyExisting"
+}
