@@ -27,8 +27,8 @@
     "copyOnSelect": false,
     "defaultProfile": "{00000000-0000-0000-0000-000000000000}",
     "firstWindowPreference": "defaultProfile",
-    "initialCols": 160,
-    "initialRows": 37,
+    "initialCols": 190,
+    "initialRows": 45,
     "newTabMenu": 
     [
         {
@@ -39,7 +39,7 @@
     {
         "defaults": 
         {
-            "backgroundImage": "",
+            "backgroundImage": null,
             "backgroundImageOpacity": 0.6,
             "colorScheme": "Tango Dark",
             "cursorShape": "bar",
@@ -63,8 +63,14 @@
                 "snapOnInput": true
             },
             {
-                "guid": "{00000000-0000-0000-0000-000000000001}",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
             }
         ]
     },
